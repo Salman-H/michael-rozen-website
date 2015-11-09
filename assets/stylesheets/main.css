@@ -106,7 +106,7 @@ li.foundations a.foundations, li.connections a.connections, li.hungry-dog a.hung
 .container,
 .grid {
   margin: 0 auto;
-  width: 960px;
+  /*width: 960px;*/
 }
 .container {
   padding-left: 30px;
@@ -188,7 +188,7 @@ li.foundations a.foundations, li.connections a.connections, li.hungry-dog a.hung
 
 .row,
 .row-alt {
-  min-width: 960px;
+  /*min-width: 960px;*/
 }
 .row {
   background: #fff;
@@ -285,7 +285,9 @@ p a {
     border-bottom: 1.5px solid #1e1f23;
     border-color: black /*firebrick*/
 }
-
+nav a:focus, a:hover {
+    text-decoration: none;
+}
 
 /*
   ========================================
@@ -599,3 +601,26 @@ table a:hover {
 figcaption {
     font-size: 11px
 }
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+ div.galleryPicture a img{
+  height:80px;
+}
+
+@media (max-width: 991px) {
+    div.galleryPicture a img {
+        max-width:80% !important;
+        height: auto;
+        max-height:80%;
+
+    }
+}
+
