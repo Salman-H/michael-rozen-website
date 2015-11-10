@@ -42,6 +42,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+body, html{
+  height: 100%;
+}
 
 body {
   line-height: 1;
@@ -109,10 +112,10 @@ li.foundations a.foundations, li.connections a.connections, li.hungry-dog a.hung
   margin: 0 auto;
   /*width: 960px;*/
 }
-.container {
+/*.container {
   padding-left: 30px;
   padding-right: 30px;
-}
+}*/
 .grid,
 .col-1-3,
 .col-2-3 {
@@ -612,9 +615,19 @@ figcaption {
 .navbar .navbar-collapse {
     text-align: center;
 }
+
+.projectSection img{
+  max-width: 100%;
+  height: 200px;
+
+}
+.projectSection{
+  font-size: 14px;
+}
  div.galleryPicture a img{
   height:80px;
 }
+
 
 @media (max-width: 991px) {
     div.galleryPicture a img {
@@ -623,5 +636,26 @@ figcaption {
         max-height:80%;
 
     }
+    .project-footer{
+      position: relative;
+    }
+    .contact-footer{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+    }
+
+}
+@media (min-width: 992px) {
+    
+    .project-footer,.contact-footer{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+    }
+
+
 }
 
