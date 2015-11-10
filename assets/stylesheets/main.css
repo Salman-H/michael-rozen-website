@@ -629,7 +629,7 @@ figcaption {
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 895px) {
     div.galleryPicture a img {
         max-width:80% !important;
         height: auto;
@@ -639,7 +639,7 @@ figcaption {
     .project-footer{
       position: relative;
     }
-    .contact-footer{
+    .contact-footer,.home-footer{
       position: absolute;
       bottom: 0;
       right: 0;
@@ -647,9 +647,9 @@ figcaption {
     }
 
 }
-@media (min-width: 992px) {
+@media (min-width: 896px) {
     
-    .project-footer,.contact-footer,.about-footer{
+    .project-footer,.contact-footer,.about-footer,.home-footer{
       position: absolute;
       bottom: 0;
       right: 0;
