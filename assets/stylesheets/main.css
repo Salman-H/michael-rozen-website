@@ -639,7 +639,7 @@ figcaption {
     .project-footer{
       position: relative;
     }
-    .contact-footer,.home-footer{
+    .contact-footer{
       position: absolute;
       bottom: 0;
       right: 0;
@@ -649,7 +649,7 @@ figcaption {
 }
 @media (min-width: 896px) {
     
-    .project-footer,.contact-footer,.about-footer,.home-footer{
+    .project-footer,.contact-footer,.about-footer{
       position: absolute;
       bottom: 0;
       right: 0;
